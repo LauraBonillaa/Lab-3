@@ -1,0 +1,108 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(173, 176, 182);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+font-family: "Poppins", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+}
+
+.img-box{
+    width: 420px;
+    height: 80vh;
+    
+    border-radius: 10px;
+    
+    background-image: url(https://img.freepik.com/foto-gratis/puesta-sol-siluetas-arboles-montanas-ia-generativa_169016-29371.jpg?t=st=1708617676~exp=1708621276~hmac=ab62b24aeff80c4f0ba05d4f11c03af423113d09a248d5d272d58f980a5b1e55&w=1060);
+    background-size: cover;
+    background-position: center;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 300px;
+    margin: 70px;
+    padding: 20px;
+
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 35px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.login-input {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #999898;
+    border-radius: 50px;
+  }
+  
+  .login-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+ 
+  .checkbox-input {
+    margin-right: 10px;
+  }
+
+  .checkbox-label {
+    font-size: 13px; 
+    color: #5e5e7a;
+  
+  }
